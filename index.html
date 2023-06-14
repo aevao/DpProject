@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider</title>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="Navbar">
+
+    <ul class="Nav">
+      <div class="Nav-name">
+        <img src="./img/logoNav.png" alt="" class="Nav-Logo">
+        <h4 class="Nav-title">GeekGadgets</h4>
+      </div>
+      <div class="search">
+  
+        <input placeholder=" Я ищу..." type="text" name="" id="" class="Nav-search_inp">
+        <button class="Nav-btn">Найти</button>
+      </div>
+      <button class="regis">
+  
+        <img src="./img/profile.png" alt="" class="Nav-profile">
+      </button>
+      <img src="./img/cart.png" alt="" class="Nav-cart">
+    </ul>
+  </div>
+ <div class="container">
+
+   <div class="swiper mySwiper">
+     <div class="swiper-wrapper">
+       <div class="swiper-slide"><img src="https://c.dns-shop.ru/thumb/st1/fit/760/600/a3c91089a3d4266879035b067904da1e/q93_2da842e94945e9a35edf644b5ece7080e1d6ee61343a52277dbaa838f3129380.jpg"></div>
+       <div class="swiper-slide"><img src="https://fireseo.ru/wp-content/uploads/2022/06/programming.jpeg"></div>
+       <div class="swiper-slide"><img src="https://808.media/wp-content/uploads/2020/06/run-windows-on-macos-with-cloudalize-1.jpg"></div>
+       <div class="swiper-slide"><img src="https://images.milledcdn.com/2018-06-05/SvxwmMXMBp62MIeW/ZbxRUUidhEgg.jpg
+         "></div>
+       <div class="swiper-slide"><img class="slide-img" src="https://avatars.mds.yandex.net/i?id=23033c6b39be0d512fa252115eda02cedc7d5109-8497447-images-thumbs&n=13"></div>
+     </div>
+     <div class="swiper-button-next"></div>
+     <div class="swiper-button-prev"></div>
+     <div class="swiper-pagination"></div>
+   </div>
+ </div>
+
+
+
+
+
+
+
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
+  </script>
+ 
+</body>
+</html>
