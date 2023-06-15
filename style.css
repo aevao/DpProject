@@ -3,10 +3,13 @@ body{
   margin: 0;
   padding: 0;
 }
+li{
+    list-style-type: none;
+}
 
 .container{
     width: 80%;
-    
+    align-items: start;
     margin-top: 10%;
 }
 
@@ -125,3 +128,37 @@ body{
   border-radius: 5%;
 }
 
+.category{
+    width: 70%;
+    height: 30%;
+}
+.header_right{
+    width: 50%;
+    margin-left: 10%;
+}
+.header_title{
+    margin: 0;
+}
+
+.category{
+    display: flex;
+    margin: 0;
+}
+
+.right_category_one{
+    width: 100%;
+}
+.category_desc{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-bottom: 0.1px solid rgb(59, 57, 57);
+}
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
