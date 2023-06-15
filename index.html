@@ -1,102 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Slider</title>
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-/>
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-<link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <div class="Navbar">
-
-    <ul class="Nav">
-      <div class="Nav-name">
-        <img src="./img/logoNav.png" alt="" class="Nav-Logo">
-        <h4 class="Nav-title">GeekGadgets</h4>
-      </div>
-      <div class="search">
-  
-        <input placeholder=" Я ищу..." type="text" name="" id="" class="Nav-search_inp">
-        <button class="Nav-btn">Найти</button>
-      </div>
-      <button class="regis">
-  
-        <img src="./img/profile.png" alt="" class="Nav-profile">
-      </button>
-      <img src="./img/cart.png" alt="" class="Nav-cart">
-    </ul>
-  </div>
- <div class="container">
-  <div class="header">
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="https://c.dns-shop.ru/thumb/st1/fit/760/600/a3c91089a3d4266879035b067904da1e/q93_2da842e94945e9a35edf644b5ece7080e1d6ee61343a52277dbaa838f3129380.jpg"></div>
-        <div class="swiper-slide"><img src="https://fireseo.ru/wp-content/uploads/2022/06/programming.jpeg"></div>
-        <div class="swiper-slide"><img src="https://808.media/wp-content/uploads/2020/06/run-windows-on-macos-with-cloudalize-1.jpg"></div>
-        <div class="swiper-slide"><img src="https://images.milledcdn.com/2018-06-05/SvxwmMXMBp62MIeW/ZbxRUUidhEgg.jpg
-          "></div>
-        <div class="swiper-slide"><img class="slide-img" src="https://avatars.mds.yandex.net/i?id=23033c6b39be0d512fa252115eda02cedc7d5109-8497447-images-thumbs&n=13"></div>
-      </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="Navbar">
+      <ul class="Nav">
+        <div class="Nav-name">
+          <img src="./img/logoNav.png" alt="" class="Nav-Logo" />
+          <h4 class="Nav-title">GeekGadgets</h4>
+        </div>
+        <div class="search">
+          <input
+            placeholder=" Я ищу..."
+            type="text"
+            name=""
+            id=""
+            class="Nav-search_inp"
+          />
+          <button class="Nav-btn">Найти</button>
+        </div>
+        <button class="regis"><a href="./Auth.html" class="join">
+          <img src="./img/profile.png" alt="" class="Nav-profile" />
+        </a>
+        </button>
+        <img src="./img/cart.png" alt="" class="Nav-cart" />
+      </ul>
     </div>
-    <div class="header_right">
-      <h4 class="header_title">Популярные категории</h4>
-      <div class="category">
-
-        <ul class="right_category_one">
-          <li class="category_desc">
-            <img width="60px" src="./img/nout category.jpg" alt="" class="desc_img">
-            <p class="desc_info">Ноутбуки</p>
-          </li>
-          <li class="category_desc">
-            <img width="60px" src="https://www.ferra.ru/thumb/1500x0/filters:quality(75):no_upscale()/imgs/2022/06/21/07/5459546/4d733360084bcfbf63142d6c6ddaad099fdb5de0.jpeg" alt="" class="desc_img">
-            <p class="desc_info">Готовые Сборки
-            </p>
-          </li>
-          <li class="category_desc">
-            <img width="60px" src="https://enter.kg/images/stories/virtuemart/product/galax-geforce-rtx3050-1-click-oc-8gb-gddr6-128bit-1792mhz-14000mhz-hdmi-3xdisplayport-35nsl8md5ybp-_1699.jpg" alt="" class="desc_img">
-            <p class="desc_info">Видеокарты</p>
-          </li>
-          <li class="category_desc">
-            <img width="60px" src="https://enter.kg/images/stories/virtuemart/product/71t7mtx-ojl._sy355__7277.jpg" alt="" class="desc_img">
-            <p class="desc_info">Наушники</p>
-          </li>
-        </ul>
-        <ul class="right_category_second"></ul>
+    <div class="container">
+      <div class="header">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="https://c.dns-shop.ru/thumb/st1/fit/760/600/a3c91089a3d4266879035b067904da1e/q93_2da842e94945e9a35edf644b5ece7080e1d6ee61343a52277dbaa838f3129380.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://fireseo.ru/wp-content/uploads/2022/06/programming.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://808.media/wp-content/uploads/2020/06/run-windows-on-macos-with-cloudalize-1.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://images.milledcdn.com/2018-06-05/SvxwmMXMBp62MIeW/ZbxRUUidhEgg.jpg
+          "
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="slide-img"
+                src="https://avatars.mds.yandex.net/i?id=23033c6b39be0d512fa252115eda02cedc7d5109-8497447-images-thumbs&n=13"
+              />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="header_right">
+          <h4 class="header_title">Популярные категории</h4>
+          <div class="category">
+            <ul class="right_category_one">
+              <li class="category_desc">
+                <img
+                  width="90"
+                  src="./img/nout category.jpg"
+                  alt=""
+                  class="desc_img"
+                />
+                <a href="*" class="desc_info">Ноутбуки</a href="*">
+              </li>
+              <li class="category_desc">
+                <img
+                  width="80px"
+                  src="https://www.ferra.ru/thumb/1500x0/filters:quality(75):no_upscale()/imgs/2022/06/21/07/5459546/4d733360084bcfbf63142d6c6ddaad099fdb5de0.jpeg"
+                  alt=""
+                  class="desc_img"
+                />
+                <a href="*" id="desc" class="desc_info">Готовые Сборки</a href="*">
+              </li>
+              <li class="category_desc">
+                <img
+                  width="80px"
+                  src="https://enter.kg/images/stories/virtuemart/product/galax-geforce-rtx3050-1-click-oc-8gb-gddr6-128bit-1792mhz-14000mhz-hdmi-3xdisplayport-35nsl8md5ybp-_1699.jpg"
+                  alt=""
+                  class="desc_img"
+                />
+                <a href="*" class="desc_info">Видеокарты</a href="*">
+              </li>
+            </ul>
+            <ul class="right_category_second">
+              <li class="category_desc">
+                <img
+                  width="100px"
+                  src="https://softech.kg/image/cache/52dd0fddea069a105d5e9550c148665c.jpg"
+                  alt=""
+                  class="desc_img"
+                />
+                <a href="*" class="desc_info">Наушники</a href="*">
+              </li>
+              <li class="category_desc">
+                <img
+                  width="80px"
+                  src="https://object.pscloud.io/cms/cms/Photo/img_0_65_441_2_6.png"
+                  alt=""
+                  class="desc_img"
+                />
+                <a href="*" class="desc_info">Мониторы</a href="*">
+              </li>
+              <li class="category_desc">
+                <img
+                  width="117px"
+                  src="https://static.tildacdn.com/stor3637-3139-4365-b233-313535323962/54478387.jpg"
+                  alt=""
+                  class="desc_img"
+                />
+                <a href="*" class="desc_info">Клавиатуры</a href="*">
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
- </div>
 
-
-
-
-
-
-
-
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 30,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-      mousewheel: true,
-      keyboard: true,
-    });
-  </script>
- 
-</body>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+      });
+    </script>
+  </body>
 </html>
