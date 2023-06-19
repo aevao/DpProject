@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Roboto+Mono:ital,wght@0,300;1,300&display=swap');
 html,
 body {
   margin: 0;
@@ -143,6 +144,14 @@ a {
 #desc {
   margin-left: 20%;
 }
+.desc_info{
+  border: none;
+  background-color: white;
+  color: blue;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+
+}
 .desc_info:hover {
   text-decoration: dashed;
   color: red;
@@ -168,6 +177,13 @@ a {
   border-bottom: 1px solid #f0ebfa;
   font-family: "Montserrat", sans-serif;
 }
+.all_btn{
+  border: none;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  color: blue;
+  font-size: 17px;
+}
 
 .category_desc:hover {
   display: flex;
@@ -188,3 +204,130 @@ a {
   width: 100%;
   justify-content: space-between;
 }
+
+.brand_list{
+  width: 85%;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+}
+
+.brand_desc{
+  width: 100%;
+  opacity: 0.5;
+  border-right: 2px solid #f0ebfa;
+}
+.brand_desc:hover{
+  opacity: 1;
+}
+
+.brand_img{
+  width: 70%;
+}
+
+.products{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 5%;
+
+}
+
+.product_card{
+  width: 20%;
+
+  margin-left: 5%;
+  
+}
+
+.product-image{
+  max-width: 100px;
+  width: 60%;
+  max-height: 150px;
+ margin-left: 20%;
+ margin-bottom: 3%;
+}
+
+.product-title{
+  margin-inline: 10%;
+  width: 100%;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+.product-descr{
+  width: 100%;
+  font-size: 14px;
+  margin-inline: 10%;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+.product-price{
+  width: 100%;
+  font-size: 14px;
+  margin-inline: 10%;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+.cart{
+  display: flex;
+  margin: 0;
+  
+}
+.cart_btn{
+  width: 25%;
+  border: none;
+  background-color: white;
+}
+
+.cart_icon{
+  width:100% ;
+}
+
+/* пагинация */
+.pagination {
+  display: flex;
+  list-style-type: none;
+  width: 30%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.pagination-list {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.page_num {
+  width: 15%;
+  justify-content: center;
+}
+
+.page-item {
+  background-color: #3aa9f4;
+  padding: 0% 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.page-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.pagcon {
+  margin-top: 3%;
+  margin-bottom: 20px;
+}
+/* пагинация */
