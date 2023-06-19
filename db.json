@@ -1,0 +1,346 @@
+{
+  "Registration": [
+    {
+      "login": "aevao",
+      "email": "sjkdf@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 1
+    },
+    {
+      "login": "arslan",
+      "email": "at@gmail.com",
+      "password": "456",
+      "password2": "456",
+      "id": 2
+    },
+    {
+      "login": "samat",
+      "email": "samat2004@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 3
+    },
+    {
+      "login": "ramil",
+      "email": "ramil@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 4
+    },
+    {
+      "login": "Zazhigalka",
+      "email": "mamiev.sultan06@gmail.com",
+      "password": "1234567890",
+      "password2": "1234567890",
+      "id": 5
+    },
+    {
+      "login": "cholpon",
+      "email": "cholpon@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 9
+    },
+    {
+      "login": "rrd",
+      "email": "rrd@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 10
+    },
+    {
+      "login": "arslan",
+      "email": "evail@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 11
+    },
+    {
+      "login": "never ",
+      "email": "gonna@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 12
+    },
+    {
+      "login": "mirbek",
+      "email": "sadf@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 13
+    },
+    {
+      "login": "lee",
+      "email": "lee@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 14
+    },
+    {
+      "login": "beks",
+      "email": "beks",
+      "password": "123",
+      "password2": "123",
+      "id": 15
+    },
+    {
+      "login": "samat",
+      "email": "samt@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 16
+    },
+    {
+      "login": "diana",
+      "email": "sdf@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 17
+    },
+    {
+      "login": "diana2",
+      "email": "sadf@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 18
+    },
+    {
+      "login": "arslan",
+      "email": "sdfa@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 19
+    },
+    {
+      "login": "samatloh",
+      "email": "sdf@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 20
+    },
+    {
+      "login": "samuel",
+      "email": "umtity@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 21
+    },
+    {
+      "login": "messi",
+      "email": "coat@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 22
+    },
+    {
+      "login": "logan",
+      "email": "rasamaha@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 23
+    },
+    {
+      "login": "logan",
+      "email": "rasamaha@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 24
+    },
+    {
+      "login": "ronaldo",
+      "email": "roda@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 25
+    },
+    {
+      "login": "facy",
+      "email": "roda@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 26
+    },
+    {
+      "login": "modrich",
+      "email": "asdf@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 27
+    },
+    {
+      "login": "casemiro",
+      "email": "case@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 28
+    },
+    {
+      "login": "de young",
+      "email": "de@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 29
+    },
+    {
+      "login": "kenpachi",
+      "email": "fjaj@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 30
+    },
+    {
+      "login": "rosamahaha",
+      "email": "asdf@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 31
+    },
+    {
+      "login": "traxer",
+      "email": "asdf@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 32
+    },
+    {
+      "login": "boxi",
+      "email": "asdfg@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 33
+    },
+    {
+      "login": "sf",
+      "email": "asf@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 34
+    },
+    {
+      "login": "pango",
+      "email": "sdfj@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 35
+    },
+    {
+      "login": "aika",
+      "email": "gghf@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 36
+    },
+    {
+      "login": "shadowfiend",
+      "email": "qwe@gmail.com",
+      "password": "shadowfiend",
+      "password2": "shadowfiend",
+      "id": 37
+    },
+    {
+      "login": "clement ",
+      "email": "fgjhd@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 38
+    },
+    {
+      "login": "diana",
+      "email": "hsjkdg@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 39
+    },
+    {
+      "login": "pango",
+      "email": "dfgjf@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 40
+    },
+    {
+      "login": "ramil",
+      "email": "dfssssssgsshs@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 41
+    },
+    {
+      "login": "жиголо",
+      "email": "лохлох",
+      "password": "123",
+      "password2": "123",
+      "id": 42
+    },
+    {
+      "login": "eklwrjrewl;",
+      "email": "rejreql",
+      "password": "123",
+      "password2": "123",
+      "id": 43
+    },
+    {
+      "login": "akylbek",
+      "email": "akylbek@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 44
+    },
+    {
+      "login": "Biynazir",
+      "email": "biynazir@list.ru",
+      "password": "dad12",
+      "password2": "dad12",
+      "id": 45
+    },
+    {
+      "login": "sdfghjkl@",
+      "email": "aaasdfghjkl;'",
+      "password": "asdfghjkl;'",
+      "password2": "asdfghjkl;'",
+      "id": 46
+    },
+    {
+      "login": "koncha",
+      "email": "nerubian7888982gmail.com",
+      "password": "qwert213214",
+      "password2": "qwert213214",
+      "id": 47
+    },
+    {
+      "login": "log",
+      "email": "log@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": 48
+    }
+  ],
+  "Post": [
+    {
+      "userName": "sdfghjkl@",
+      "title": "wvow",
+      "info": "",
+      "other": "",
+      "image": "https://img.prosports.kz/news/content//202107/203768_d53a99c37de334297631da70a3ffc50b.png?t=1626778297",
+      "id": 3
+    },
+    {
+      "userName": "sdfghjkl@",
+      "title": "sdafaf",
+      "info": "",
+      "other": "",
+      "image": "https://img.championat.com/s/735x490/news/big/t/v/anton-dyrachyo-shkredov-stal-vosmym-chempionom-mejdzhora-po-dota-2-iz-rossii_1678077812111895900.jpg",
+      "id": 4
+    },
+    {
+      "userName": "aevao",
+      "title": "asdfasdf",
+      "info": "asdf",
+      "other": "",
+      "image": "",
+      "id": 5
+    }
+  ],
+  "Comments": []
+}

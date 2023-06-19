@@ -91,7 +91,7 @@ async function checkUser() {
   if (userActive) {
     // alert("yes");
     localStorage.setItem("test", signinLogin.value);
-    window.location.replace("../html/twitter.html");
+    window.location.replace("./index.html");
     // window.location.href = "../html/twitter.html";
   } else {
     // alert("no");
