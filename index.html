@@ -63,6 +63,7 @@
                 src="https://images.milledcdn.com/2018-06-05/SvxwmMXMBp62MIeW/ZbxRUUidhEgg.jpg
           "
               />
+            
             </div>
             <div class="swiper-slide">
               <img
@@ -76,7 +77,7 @@
           <div class="swiper-pagination"></div>
         </div>
         <div class="header_right">
-          <h4 class="header_title">Популярные категории</h4>
+          <h4 class="header_title">Популярные категории  <button class="all_btn" onclick="fetchByParams('')">All</button> </h4>
           <div class="category">
             <ul class="right_category_one">
               <li class="category_desc">
@@ -86,7 +87,7 @@
                   alt=""
                   class="desc_img"
                 />
-                <a href="*" class="desc_info">Ноутбуки</a href="*">
+                <button onclick="fetchByParams(6)" class="desc_info">Ноутбуки</button>
               </li>
               <li class="category_desc">
                 <img
@@ -95,7 +96,10 @@
                   alt=""
                   class="desc_img"
                 />
-                <a href="*" id="desc" class="desc_info">Готовые Сборки</a href="*">
+               
+
+                  <button onclick="fetchByParams(5)" id="desc" class="desc_info">Готовые Сборки</button>
+               
               </li>
               <li class="category_desc">
                 <img
@@ -104,7 +108,8 @@
                   alt=""
                   class="desc_img"
                 />
-                <a href="*" class="desc_info">Видеокарты</a href="*">
+
+                <button onclick="fetchByParams(2)" class="desc_info">Видеокарты</button>
               </li>
             </ul>
             <ul class="right_category_second">
@@ -115,7 +120,7 @@
                   alt=""
                   class="desc_img"
                 />
-                <a href="*" class="desc_info">Наушники</a href="*">
+                <button onclick="fetchByParams(7)" class="desc_info">Наушники</button>
               </li>
               <li class="category_desc">
                 <img
@@ -124,7 +129,7 @@
                   alt=""
                   class="desc_img"
                 />
-                <a href="*" class="desc_info">Мониторы</a href="*">
+                <button onclick="fetchByParams(3)" class="desc_info">Мониторы</button>
               </li>
               <li class="category_desc">
                 <img
@@ -133,15 +138,42 @@
                   alt=""
                   class="desc_img"
                 />
-                <a href="*" class="desc_info">Клавиатуры</a href="*">
+                <button onclick="fetchByParams(4)" class="desc_info">Клавиатуры </button>
               </li>
             </ul>
           </div>
         </div>
       </div>
+      <ul class="brand_list">
+        <li class="brand_desc"><img src="./img/asus.jpg" alt="" class="brand_img"></li>
+        <li class="brand_desc"><img src="./img/acer.jpg" alt="" class="brand_img"></li>
+        <li class="brand_desc"><img src="./img/samsung.jpg" alt="" class="brand_img"></li>
+        <li class="brand_desc"><img src="./img/logitech.jpg" alt="" class="brand_img"></li>
+        <li class="brand_desc"><img src="./img/hyperx.jpg" alt="" class="brand_img"></li>
+        <li class="brand_desc"><img src="./img/msi.jpg" alt="" class="brand_img"></li>
+        <li class="brand_desc"><img src="./img/hp.jpg" alt="" class="brand_img"></li>
+        <li class="brand_desc"><img src="./img/tp_link.jpg" alt="" class="brand_img"></li>
+        <li class="brand_desc"><img src="./img/aoc.jpg" alt="" class="brand_img"></li>
+      </ul>
+      <div class="products">
+      </div>
+      <nav class="pagcon" aria-label="...">
+        <ul class="pagination">
+          <li class="page-item prev">
+            <a class="page-link" href="#">Previous</a>
+          </li>
+          <!-- <li class="page-item"><a class="page-link" href="#">1</a></li> -->
+          <div class="pagination-list"></div>
+          <li class="page-item next">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
     </div>
 
+    <script src="./main.js"></script>
     <script>
+      
       var swiper = new Swiper(".mySwiper", {
         spaceBetween: 30,
         navigation: {
@@ -155,5 +187,6 @@
         keyboard: true,
       });
     </script>
+
   </body>
 </html>

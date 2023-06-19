@@ -274,72 +274,66 @@
       "id": 42
     },
     {
-      "login": "eklwrjrewl;",
-      "email": "rejreql",
-      "password": "123",
-      "password2": "123",
+      "login": "beka",
+      "email": "beka@gakj.com",
+      "password": "beka1314",
+      "password2": "beka1314",
       "id": 43
     },
     {
-      "login": "akylbek",
-      "email": "akylbek@gmail.com",
-      "password": "123",
-      "password2": "123",
+      "login": "beka",
+      "email": "bqeio22iop@ilolk.com",
+      "password": "beka1314",
+      "password2": "beka1314",
       "id": 44
     },
     {
-      "login": "Biynazir",
-      "email": "biynazir@list.ru",
-      "password": "dad12",
-      "password2": "dad12",
+      "login": "Salam",
+      "email": "Salam@gmail.com",
+      "password": "123",
+      "password2": "123",
       "id": 45
     },
     {
-      "login": "sdfghjkl@",
-      "email": "aaasdfghjkl;'",
-      "password": "asdfghjkl;'",
-      "password2": "asdfghjkl;'",
-      "id": 46
-    },
-    {
-      "login": "koncha",
-      "email": "nerubian7888982gmail.com",
-      "password": "qwert213214",
-      "password2": "qwert213214",
-      "id": 47
-    },
-    {
-      "login": "log",
-      "email": "log@gmail.com",
+      "login": "bektur",
+      "email": "fdswedf",
       "password": "123",
       "password2": "123",
-      "id": 48
+      "id": 46
     }
   ],
   "Post": [
     {
-      "userName": "sdfghjkl@",
-      "title": "wvow",
+      "userName": "diana",
+      "title": "I'm so tired",
       "info": "",
       "other": "",
-      "image": "https://img.prosports.kz/news/content//202107/203768_d53a99c37de334297631da70a3ffc50b.png?t=1626778297",
-      "id": 3
+      "image": "https://staticg.sportskeeda.com/editor/2022/08/f0c7a-16617573090253.png",
+      "id": 11
     },
     {
-      "userName": "sdfghjkl@",
-      "title": "sdafaf",
+      "userName": "samat",
+      "title": "Объясните чайнику что это такое буду очень благодарен ",
+      "info": ": )",
+      "other": "",
+      "image": "https://www.codereadability.com/content/images/2016/09/Screen-Shot-2016-09-27-at-17.52.03.png",
+      "id": 12
+    },
+    {
+      "userName": "shadowfiend",
+      "title": "hahahhahahha",
       "info": "",
       "other": "",
-      "image": "https://img.championat.com/s/735x490/news/big/t/v/anton-dyrachyo-shkredov-stal-vosmym-chempionom-mejdzhora-po-dota-2-iz-rossii_1678077812111895900.jpg",
-      "id": 4
+      "image": "https://phonoteka.org/uploads/posts/2022-09/thumbs/1663677040_4-phonoteka-org-p-sf-oboi-na-telefon-vkontakte-5.png",
+      "id": 15
     },
     {
-      "userName": "aevao",
-      "title": "asdfasdf",
-      "info": "asdf",
-      "other": "",
-      "image": "",
-      "id": 5
+      "userName": "beka",
+      "title": "arslan",
+      "info": "s;oduigh",
+      "other": "sdfio;hg",
+      "image": "https://fox-guide.ru/wp-content/uploads/2022/12/52c429650348280d1388342b4f9dfea0-750x450.jpg",
+      "id": 16
     }
   ],
   "Comments": []
