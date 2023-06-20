@@ -64,8 +64,13 @@ let cartBtn = document.querySelector(".nav-cart");
 async function editProduct(id) {
   // стягиваем редактируемый продукт
   let objToEdit = await fetch(`${API}/${id}`).then((res) => res.json());
-  console.log(objToEdit);
-  localStorage.setItem("data", JSON.stringify(objToEdit));
+  if (!localStorage.getItem("data")) {
+    localStorage.setItem("data", "[]");
+  }
+
+  let data = JSON.parse(localStorage.getItem("data"));
+  data.push(objToEdit);
+  localStorage.setItem("data", JSON.stringify(data));
 }
 
 const slider = document.querySelector(".slider");
