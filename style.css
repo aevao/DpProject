@@ -24,6 +24,7 @@ a {
   z-index: 1000;
   top: 0;
   height: 100px;
+  
 }
 
 .Nav {
@@ -33,6 +34,53 @@ a {
   align-items: center;
   height: 95px;
   margin: auto;
+}
+
+.nav-burger{
+  width: 40px;
+  display: none;
+}
+
+.burger-btn{
+  background-color: rgb(15, 155, 248);
+  border: none;
+}
+.burger-img{
+  width: 35px;
+}
+
+.burger_desc{
+  display: none;
+  width: 38%;
+  height: 130px;
+  background-color: white;
+  position: absolute;
+  z-index: 111111;
+  top: 1;
+  /* right: 1; */
+  left: 5px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 45px  #434040 ;
+
+}
+
+.burger_list{
+  display: flex;  
+  height: 60%;
+  width: 80%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.close_burger{
+  width: 10%;
+
+  cursor: pointer;
+  border: none;
+  background-color: white;
+
+
 }
 
 .Nav-name {
@@ -66,7 +114,7 @@ a {
 .Nav-search_inp {
   height: 44%;
   width: 70%;
-  border: 0.3px solid black;
+  /* border: 0.3px solid white; */
   border: none;
   padding-left: 10px;
   border-radius: 6px;
@@ -75,9 +123,11 @@ a {
   border-right: none;
 }
 
-.Nav-search_inp :active {
-  border: none;
+.Nav-search_inp:focus{
+  outline: none;
 }
+
+
 .regis {
   height: 40%;
   border: none;
@@ -235,8 +285,12 @@ a {
 
 .product_card {
   width: 210px;
-
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 10px 10px 20px #434040;
   margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 .product-image {
@@ -265,9 +319,11 @@ a {
 .product-price {
   width: 100%;
   font-size: 14px;
+  color: black;
   margin-inline: 10%;
   font-family: "Inter", sans-serif;
   font-family: "Roboto Mono", monospace;
+
 }
 
 .cart {
@@ -275,13 +331,14 @@ a {
   margin: 0;
 }
 .cart_btn {
-  width: 25%;
+  width: 35px;
   border: none;
   background-color: white;
+  border-radius: 10%;
 }
 
 .cart_icon {
-  width: 35px;
+  width: 25px;
 }
 
 .nav-cart {
@@ -290,6 +347,9 @@ a {
   border: none;
   background-color: rgb(15, 155, 248);
 }
+
+
+
 
 /* footer */
 footer {
@@ -493,9 +553,12 @@ footer {
   .swiper {
     margin-top: 20%;
   }
+  .nav-burger{
+    display: block;
+    margin-top: 5%;
+  }
   .Nav-Logo {
-    width: 50px;
-    margin: 0;
+    display: none;
   }
   .Nav-profile {
     display: none;
@@ -512,43 +575,3 @@ footer {
     margin-right: -17%;
   }
 }
-/* @media (max-width: 390px) {
-  .header{
-    margin-top: 23%;
-  }
-  .Nav{
-    width: 100%;
-  }
-  .Nav-title {
-    display: none;
-  }
-  .Nav-Logo{
-    width: 50px;
-    margin: 0;
-  }
-  .Nav-btn{
-    display: none;
-  }
-  .Nav-profile{
-    display: none;
-  }
-  .search{
-    margin: 0;
-    margin-top: 13%;
-  }
-  .Nav-search_inp{
-    width: 50px;
-  }
-  .category{
-    margin-left: 30%;
-  }
-  .regis{
-    display: none;
-  }
-  .swiper-slide > img {
-    margin-bottom: 30px;
-  }
-  .swiper{
-    margin-top: 15px;
-  }
-} */

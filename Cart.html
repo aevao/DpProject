@@ -1,11 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <title>Simple Storage</title>
+    <link rel="stylesheet" href="./Cart.css">
 </head>
 <body>
-    aga
+    <div class="container">
+        <div class="cart">
+          <h2>Корзина</h2>
+          <ul class="cart-items">
+              <li class="item ">
+                  <h3 class="item_title">Изображение</h3>
+                  <h3>Название</h3>
+                  <h3>цена</h3>
+                
+        </ul>
+          <div class="cart-total">
+            <p class="total"></p>
+            <button class="checkout-btn" onclick="cartCleaner()">Оформить заказ</button>
+          </div>
+        </div>
+      </div>
+    <script src="./Cart.js"></script>
 </body>
 </html>

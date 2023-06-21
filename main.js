@@ -8,24 +8,28 @@ let searchVal = "";
 
 let categoryValue = "";
 
+let checks1 = ''
+
 let products = document.querySelector(".products");
 render();
 async function render() {
-  let a = await fetch("http://161.35.23.244:8080/api/v1/products/");
-  let b = await a.json();
-  console.log(b);
-  // отправка запроса для получения продуктов с сервера&_limit=3&${
-  // categoryValue ? `category=${categoryValue}`
   let addProduct = await fetch(
     `${API}?search=${searchVal}&_limit=3&${
       categoryValue ? `category_id=${categoryValue}` : ""
     }`
   ).then((res) => res.json());
-  console.log(addProduct);
+  
 
   products.innerHTML = "";
-  // отрисовка карточек, где на каждый объект в post, рендерится одна карточка
+  // отрисовка карточек, где на каждый объект, рендерится одна карточка
   addProduct.forEach((item) => {
+    checkProductCart(item.id)
+    let checks = checkProductCart(item.id)
+    if(checks === true) {
+      checks1 = 'green'
+    }else{
+      checks1 = ''
+    }
     products.innerHTML += `
     <div class = 'product_card'>
 
@@ -33,13 +37,19 @@ async function render() {
     <p class = 'product-title'>${item.title}</p>
     <div class = "cart">
     <p class = 'product-price'>Price: ${item.price}$ </p>
-    <button class="cart_btn" onclick="editProduct(${item.id})"><img src="./img/cart.png" alt="" class="cart_icon"></button>
+    <button class="cart_btn" style="background-color:${checks1};" onclick="addToCart(${item.id}) "><img src="./img/cart.png" alt="" class="cart_icon"></button>
     </div>
     </div>
     `;
   });
+  // render()
+  
 }
 
+
+ let renderCart= () => {
+  render()
+}
 // FILTER
 // функция для фильтрации по категориям
 function fetchByParams(value) {
@@ -61,17 +71,43 @@ search.addEventListener("input", () => {
 
 let cartBtn = document.querySelector(".nav-cart");
 
-async function editProduct(id) {
-  // стягиваем редактируемый продукт
+async function addToCart(id) {
   let objToEdit = await fetch(`${API}/${id}`).then((res) => res.json());
   if (!localStorage.getItem("data")) {
     localStorage.setItem("data", "[]");
   }
-
+  
   let data = JSON.parse(localStorage.getItem("data"));
+  
   data.push(objToEdit);
   localStorage.setItem("data", JSON.stringify(data));
+  render()
 }
+
+const checkProductCart = (id) => {
+  let cart = JSON.parse(localStorage.getItem("data"));
+  if (cart) {
+    let newCart = cart.filter((elem) => elem.id === id);
+    return newCart.length > 0 ? true : false;
+  }
+  
+};
+
+
+// ! Burger Menu
+let burgerBtn = document.querySelector('.burger-btn')
+let burgerDesc = document.querySelector('.burger_desc')
+let closeBurger = document.querySelector('.close_burger')
+
+burgerBtn.addEventListener('click', () => {
+  burgerDesc.style.display = 'block'
+})
+
+closeBurger.addEventListener('click', () => {
+  burgerDesc.style.display = 'none'
+})
+
+// ! Burger Menu
 
 const slider = document.querySelector(".slider");
 let isDragging = false;
